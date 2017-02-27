@@ -1,0 +1,52 @@
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.header-image {
+  background-image: url('http://downloadwallpaper.org/wp-content/uploads/2016/09/coffee-wallpaper-HD4.jpg');
+}
+.is-outlined {
+  background-color:transparent;
+  color:#fff;
+}
+.hero-cta {
+  padding: 30px 0;
+}
+.panel-block.section p {
+  font-size: 17px;
+  line-height: 1.4;
+  color:#95A5A6;
+}
+.section.main {
+  background-color:#F0F0F0;
+ 
+}
+.icon-block {
+  font-size:5em;
+}
+
+#p4{
+    background-color: darkkhaki;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+.textarea {
+    max-width: 50%;
+}
+
+.textbox { 
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(255, 255, 255, 0.44); 
+    color: #333; 
+    border: 1px solid #A4A4A4; 
+    padding: 4px 8px 4px 4px !important;
+    line-height: 1; 
+    width: 300px; 
+    height:200px; 
+  } 
+ .textbox:hover { 
+    border: 1px solid #FF00FF; 
+    box-shadow: inset 0px 1px 2px rgba(0,0,0,0.3); 
+    -moz-box-shadow: inset 0px 1px 2px rgba(0,0,0,0.3); 
+    -webkit-box-shadow: inset 0px 1px 2px rgba(0,0,0,0.3); 
+  } 
+ 

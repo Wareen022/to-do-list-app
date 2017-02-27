@@ -1,0 +1,44 @@
+extends layout1
+
+block content
+  .hero-body
+    .container
+        .columns.is-vcentered
+          .column.is-4.is-offset-4
+            h1.title
+              | Register an Account
+            |             
+            .box
+              label.label Name
+              |               
+              p.control
+                input.input(type='text', placeholder='Roemar Pajaron')
+              |               
+              label.label Username
+              |               
+              p.control
+                input.input(type='text', placeholder='rcpajaron')
+              |               
+              label.label Email
+              |               
+              p.control
+                input.input(type='text', placeholder='rcpajaron@example.com')
+              |               
+              hr
+              |               
+              label.label Password
+              |               
+              p.control
+                input.input(type='password', placeholder='●●●●●●●')
+              |               
+              label.label Confirm Password
+              |               
+              p.control
+                input.input(type='password', placeholder='●●●●●●●')
+              |               
+              hr
+              |               
+              p.control
+                button.button.is-primary Register
+                |                 
+                button.button.is-default Cancel

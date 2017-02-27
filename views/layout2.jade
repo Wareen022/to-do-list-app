@@ -1,0 +1,38 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title Index Page
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css')
+    link(rel='stylesheet', type='text/css', href='/stylesheets/bulma.css')
+    link(rel='stylesheet', type='text/css', href='/stylesheets/hero.css')
+    link(rel='stylesheet', type='text/css', href='/stylesheets/profile.css')
+  body
+    section.hero.is-primary.is-fullheight.header-image
+      .hero-head
+        header#p4.nav.is-fullwidth
+          .nav-left   
+          span.nav-toggle
+            span
+            span
+            span
+          .nav-right.nav-menu
+            span.nav-item
+              a.button.is-info.is-outlined.is-inverted
+                span.icon
+                  i.fa.fa-calendar
+                span Calendar
+            span.nav-item
+              a.button.is-info.is-outlined.is-inverted
+                span.icon
+                  i.fa.fa-list
+                span Post-it Note
+            span.nav-item
+              a.button.is-info.is-outlined.is-inverted
+                span.icon
+                  i.fa.fa-user
+                span Logout
+                
+        block content

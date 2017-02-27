@@ -1,0 +1,44 @@
+extends layout2
+
+block content
+    .hero-body
+      .container
+        .section
+          .content
+            .columns
+              .column.is-4
+                .card.is-fullwidth
+                  .card-content
+                    a.card-avatar
+                      img.card-avatar-img(src='https://pbs.twimg.com/profile_images/3005141692/dc8e1eb36b6cbd2b5726f63c50adf7f2.png')
+                    .card-user
+                      .card-user-name
+                        p Name
+                      span
+                        p
+                          span username
+                    .card-stats
+                      ul.card-stats-list
+                        li.card-stats-item
+                          a(href='#', title='9.840 Tweet')
+                            span.card-stats-key Counter
+                            span.card-stats-val 0
+                        li.card-stats-item
+                          a(href='#/following', title='885 Following')
+                            span.card-stats-key To-Do 
+                            span.card-stats-val 0
+                        li.card-stats-item
+                          a(href='#')
+                            span.card-stats-key Done
+                            span.card-stats-val 0
+                .spacer
+                .box.trending
+                  p.trend-title CREATE A TASK
+                  textarea.textbox
+                  br
+                  br
+                  center
+                    button(type='submit', value='Submit') Submit
+              .column.is-8
+                .box.trending
+                  p.trend-title TO-DO LIST
